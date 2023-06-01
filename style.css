@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Robotobold.ttf);
+    font-weight: bold;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+header{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(9, 5, 47, .25) 0%, rgba(0, 0, 0, 0.25) 100%), url(./image/Group\ 1.png);
+    
+}
+.header-info{
+    display: flex;
+}
+.header-title{
+    color: #FFF;
+    padding-right: 67px;
+}
+.header-title h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top:247px ;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+  
+}
+.header-title p{
+    padding-bottom: 86px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header-call p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-left: 122px;
+    padding-top: 10px;
+}
+.header__call-info{
+    border: 5px solid #FEB119;
+    border-radius: 20px;
+    width: 305px;
+    height: 119px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #FEB119;
+    margin-top: 176px;
+    margin-left: 122px;
+}
+.header__call-info img{
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.call-numb{
+    margin-left: 122px;
+    margin-top: 19px;
+}
+.call-numb span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #FFF;  
+}
+.content{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.content-flex{
+    display: flex;
+}
+.card-one,
+.card-two,
+.card-three{
+    display: flex;
+    margin-bottom: 40px;
+}
+.box-one__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five,
+.box-six{
+    width: 360px;
+    height: 430px;
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin-right: 30px;
+}
+.box-one img{
+    padding-left: 88px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.box-one p,
+.box-two p,
+.box-three p,
+.box-four p,
+.box-five p,
+.box-six p{
+    padding-top: 16px;
+    padding-left: 102px;
+    padding-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);;
+}
+.first{
+    padding-top: 33px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.first-text{
+    padding-right: 160px;
+}
+.box-one__info{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.sum-text{
+    padding-right: 159px;
+}
+.age-text{
+    padding-right: 186px;
+}
+.time-text{
+    padding-right: 129px;
+}
+.content-action{
+    width: 300px;
+    height: 54px;
+    background: #66D144;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 30px;
+    margin-top: 48px;
+}
+
+.box-two img{
+    padding-left: 59px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+.box-three img{
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+.box-four img{
+    padding-left: 88px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.box-five img{
+    padding-left: 53px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+.box-six img{
+    padding-left: 104px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+.content-info{
+    background: rgba(255, 138, 1, 0.05);
+    width: 360px;
+    height: 1370px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    
+}
+.content-info__call{
+    padding: 29px 25px 20px 54px ;
+    border-bottom: 1px solid #FF8A01;
+    
+}
+.content-info__text{
+    padding: 20px 25px 20px 54px ;
+    border-bottom: 1px solid #FF8A01;
+}
+.content-info__last{
+    padding: 20px 25px 29px 54px ;
+}
+footer{
+    text-align: center;
+}
+.footer-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.15);
+    border-top:1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+footer p{
+    padding-bottom: 10px;
+}
